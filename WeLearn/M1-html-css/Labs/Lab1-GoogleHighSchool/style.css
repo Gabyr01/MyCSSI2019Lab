@@ -1,0 +1,46 @@
+body {
+  margin: 0px;
+}
+
+#header {
+  color: white;
+  background-color: rgb(107, 181, 255);
+  font-size: 20px;
+  height: 200px;
+  margin: 0px;
+  padding-top: 3%;
+  text-align: center;
+  width: 100%;
+}
+
+#links {
+  background-color: rgb(247, 247, 158);
+  height: 50px;
+  text-align: center;
+}
+
+.link {
+  color: grey;
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+}
+#students {
+text-align: center;
+}
+#info {
+  text-align: center;
+  font-family: 'Unica One', cursive;
+
+
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid black;
+}
+table {
+  border: 1px solid black;
+}

@@ -8,6 +8,7 @@ body {
   font-family: Helvetica, sans-serif;
   width: 75%;
   margin: auto;
+
 }
 
 #fauna-title,
@@ -16,6 +17,8 @@ body {
 }
 
 h1 {
+
+  text-align: center;
   background-color: lightblue;
   border: 2px solid black;
   color: white;
