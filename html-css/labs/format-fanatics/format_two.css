@@ -16,6 +16,8 @@
 
 .container {
   display:grid;
+  grid-template-columns: 10% 30% 30% 10% 20% 10%;
+  grid-template-rows: 10% 10% 60% 10% 10%
   /* Style the template for the grid */
 }
 
@@ -25,7 +27,7 @@
 }
 
 #title {
-  grid-column: span 12;
+  
 }
 
 .photo {
@@ -33,3 +35,9 @@
 }
 
 /* Style remaining grid elements */
+.borderSide {
+
+}
+.borderTop {
+
+}
