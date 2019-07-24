@@ -10,3 +10,10 @@ console.log("I can Drive!");
 }else{
 console.log("I can't drive ");
 }
+
+let n = 1;
+setInterval(() => {
+  n=n+1;
+  console.log(n);
+}
+}
