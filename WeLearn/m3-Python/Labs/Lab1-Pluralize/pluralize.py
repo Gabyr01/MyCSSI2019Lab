@@ -13,8 +13,4 @@ def pluralize(word):
     else:
         print word+'s'
 
-    #else:
-    #     return word
-
 pluralize('cat')
-    #print(word[:-1] + 's')
