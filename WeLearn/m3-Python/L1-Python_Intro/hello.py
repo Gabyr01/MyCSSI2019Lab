@@ -1,7 +1,7 @@
+"""
 print("hello world")
 print("Bye world")
 
-"""
 num1 = int(raw_input("Enter number #1: "))
 num2 = int(raw_input("Enter number #2: "))
 total = (num1) + (num2)
@@ -53,7 +53,7 @@ def findSum(x):
     sum = 0
     for i in range(1,x+1):
         sum = sum + i
-    
+
     print(sum)
 
 findSum(10)
