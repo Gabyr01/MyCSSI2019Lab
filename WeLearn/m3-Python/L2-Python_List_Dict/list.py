@@ -27,10 +27,28 @@ if demoted_hero in superheroes:
     print("Top 5 heroes", superheroes)
 else:
     print("Hero not found.")
-"""
+
 #my_list[start:end:step]
 names = ["Rickon", "Bran", "Arya","Sansa","Jon", "Robb"]
 print(names[::-1]) #['Robb', 'Jon', 'Sansa', 'Arya', 'Bran', 'Rickon']
 print(names[4:2:-1]) #['Jon', 'Sansa']
 print(names[:2]) #end index is not included ['Rickon', 'Bran']
 print(names[::2]) #every other name ['Rickon', 'Arya', 'Jon']
+"""
+#DICTIONARY
+states = {
+"NY": "New York",
+"CA": "California",
+"TX": "Texas",
+"HI": "Hawaii"
+}
+for abbreviation in states:
+    print(abbreviation + " is short for "+states[abbreviation])
+me = {
+"name": "Gaby",
+"age": 17,
+"gender": "female"
+}
+for gabyInfo in states:
+    print(gabyInfo  + " is " + me[gabyInfo])
+#print(pets[2]['name'])
